@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Dumper example</title>
+</head>
+<body>
+
+<a href="#" onclick="api('hello')">hello</a>
+
+<!-- We use jQuery just for the demo. Library doesn't need jQuery -->
+<script src="assets/jquery/dist/jquery.min.js"></script>
+<!-- We load the library -->
+<script src="js/dumper.js"></script>
+
+<script>
+    dumper.startSocketIo('{{ uid }}', '//localhost:8888');
+    function api(name) {
+        // we perform a remote api ajax call that triggers websockets
+        $.getJSON('/api/' + name, function (data) {
+            // Doing nothing. We only call the api to test php dumper
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "dumper",
+  "version": "1.0.0",
+  "authors": [
+    "Gonzalo Ayuso <gonzalo123@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "dumper",
+    "dump"
+  ],
+  "main": [
+    "./dist/dumper.min.js"
+  ],
+  "homepage": "http://gonzalo123.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/assets"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.3"
+  }
+}
