@@ -6,8 +6,6 @@ PHP Dumper using Websockets
 
 ```
 npm install
-bower install
-composer install
 ```
 
 ## Grunt available tastks
