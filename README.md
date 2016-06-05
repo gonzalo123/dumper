@@ -1,15 +1,13 @@
 # Dumper
 
-PHP Dumper using Websockets.
+PHP Dumper using Websockets
 
 ## Install
-
 ```
 npm install
 ```
 
 ## Grunt available tastks
-
 ```
 Available tasks
            php  Start a PHP-server *
